@@ -11,8 +11,11 @@ def checkFizzBuzz(value, expected):
 def test_returns1With1PassedIn():
     checkFizzBuzz(1, "1")
 
-def test_resturns2With2PassedIn():
+def test_returns2With2PassedIn():
     checkFizzBuzz(2, "2")
 
-def test_resturnsFizzWith3PassedIn():
+def test_returnsFizzWith3PassedIn():
     checkFizzBuzz(3, "Fizz")
+
+def test_returnsBuzzWith5PassedIn():
+    checkFizzBuzz(5, "Buzz")
